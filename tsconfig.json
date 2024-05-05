@@ -1,0 +1,15 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ESNext",
+      "ES6",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
