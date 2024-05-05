@@ -10,6 +10,18 @@ import {
 } from '../../../components';
 import {AppScreenProps} from '../../../navigation';
 
+import {NativeModules} from 'react-native';
+
+const {WGVpnAppTestModule} = NativeModules;
+
+console.log('RNAppTestManager', WGVpnAppTestModule);
+
+console.log('RNAppTestModule log', WGVpnAppTestModule.log());
+
+WGVpnAppTestModule.detectVPN().then(res => console.log('detectVPN', res));
+
+console.log('isVpnActive', WGVpnAppTestModule.isVpnActive());
+
 interface IProps extends AppScreenProps {}
 
 export const Playground: FC<IProps> = memo(({navigation, route}) => {

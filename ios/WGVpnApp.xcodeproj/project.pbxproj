@@ -11,6 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A27D1922BE7B55000CB3E9E /* WGVpnAppTestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A27D1912BE7B55000CB3E9E /* WGVpnAppTestModule.swift */; };
+		1A27D1942BE7B55600CB3E9E /* WGVpnAppTestModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A27D1932BE7B55600CB3E9E /* WGVpnAppTestModuleBridge.m */; };
 		1AF66A762985C92A00C0291A /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AF66A752985C92A00C0291A /* Config.xcconfig */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -22,6 +24,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WGVpnApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WGVpnApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WGVpnApp/main.m; sourceTree = "<group>"; };
+		1A27D1902BE7B53A00CB3E9E /* WGVpnApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WGVpnApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A27D1912BE7B55000CB3E9E /* WGVpnAppTestModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGVpnAppTestModule.swift; sourceTree = "<group>"; };
+		1A27D1932BE7B55600CB3E9E /* WGVpnAppTestModuleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGVpnAppTestModuleBridge.m; sourceTree = "<group>"; };
 		1AF66A752985C92A00C0291A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-WGVpnApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGVpnApp.debug.xcconfig"; path = "Target Support Files/Pods-WGVpnApp/Pods-WGVpnApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-WGVpnApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGVpnApp.release.xcconfig"; path = "Target Support Files/Pods-WGVpnApp/Pods-WGVpnApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		13B07FAE1A68108700A75B9A /* WGVpnApp */ = {
 			isa = PBXGroup;
 			children = (
+				1A27D18F2BE7B4CF00CB3E9E /* TestModule */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -54,6 +60,16 @@
 				1AF66A752985C92A00C0291A /* Config.xcconfig */,
 			);
 			name = WGVpnApp;
+			sourceTree = "<group>";
+		};
+		1A27D18F2BE7B4CF00CB3E9E /* TestModule */ = {
+			isa = PBXGroup;
+			children = (
+				1A27D1932BE7B55600CB3E9E /* WGVpnAppTestModuleBridge.m */,
+				1A27D1912BE7B55000CB3E9E /* WGVpnAppTestModule.swift */,
+				1A27D1902BE7B53A00CB3E9E /* WGVpnApp-Bridging-Header.h */,
+			);
+			path = TestModule;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -137,7 +153,7 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -273,6 +289,8 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				1A27D1922BE7B55000CB3E9E /* WGVpnAppTestModule.swift in Sources */,
+				1A27D1942BE7B55600CB3E9E /* WGVpnAppTestModuleBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -963,15 +963,15 @@ PODS:
     - react-native-config/App (= 1.4.5)
   - react-native-config/App (1.4.5):
     - React-Core
-  - react-native-document-picker (9.1.2):
+  - react-native-document-picker (9.2.0):
     - React-Core
   - react-native-image-picker (5.7.0):
     - React-Core
-  - react-native-pager-view (6.2.3):
+  - react-native-pager-view (6.3.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
-  - react-native-safe-area-context (4.8.2):
+  - react-native-safe-area-context (4.10.1):
     - React-Core
   - react-native-splash-screen (3.3.0):
     - React-Core
@@ -1142,32 +1142,33 @@ PODS:
     - React-jsi (= 0.73.1)
     - React-logger (= 0.73.1)
     - React-perflogger (= 0.73.1)
-  - RNCAsyncStorage (1.21.0):
+  - RNCAsyncStorage (1.23.1):
     - React-Core
-  - RNCCheckbox (0.5.16):
+  - RNCCheckbox (0.5.17):
     - BEMCheckBox (~> 1.4)
     - React-Core
   - RNFastImage (8.6.3):
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNGestureHandler (2.14.0):
+  - RNGestureHandler (2.16.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
   - RNLocalize (2.2.6):
     - React-Core
-  - RNPermissions (4.0.1):
+  - RNPermissions (4.1.5):
     - React-Core
-  - RNReanimated (3.8.1):
+  - RNReanimated (3.10.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
     - ReactCommon/turbomodule/core
-  - RNScreens (3.29.0):
+  - RNScreens (3.31.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
+    - React-RCTImage
   - RNSVG (14.1.0):
     - React-Core
   - SDWebImage (5.11.1):
@@ -1465,10 +1466,10 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 9731a0a63ebaf8976014623c4d637744d7353a7c
   react-mobile: fde64f2f21a33bf2eff9aef376c3bcbdc103fa21
   react-native-config: 6502b1879f97ed5ac570a029961fc35ea606cd14
-  react-native-document-picker: 86bcfb8e2c94cd587ca9feb0049831b806df590d
+  react-native-document-picker: 2b3efb60622b7be891b8d0e0e5424632150e0c94
   react-native-image-picker: 3269f75c251cdcd61ab51b911dd30d6fff8c6169
-  react-native-pager-view: d81ab2060b9caf57ca8c3a0d57467ff407cdb825
-  react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
+  react-native-pager-view: 2b719f3d46bacd5e22c8c0c24828440f2e31f6ad
+  react-native-safe-area-context: dcab599c527c2d7de2d76507a523d20a0b83823d
   react-native-splash-screen: 4312f786b13a81b5169ef346d76d33bc0c6dc457
   React-nativeconfig: 37aecd26d64b79327c3f10e43b2e9a6c425e0a60
   React-NativeModulesApple: 9ca6d2eaa1dd5606588262195b46d0774bdec83a
@@ -1490,20 +1491,20 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 93a4c84e46a85c3fc9678abd4f6923b785226ea7
   React-utils: debda2c206770ee2785bdebb7f16d8db9f18838a
   ReactCommon: ddb128564dcbfa0287d3d1a2d10f8c7457c971f6
-  RNCAsyncStorage: 618d03a5f52fbccb3d7010076bc54712844c18ef
-  RNCCheckbox: 75255b03e604bbcc26411eb31c4cbe3e3865f538
+  RNCAsyncStorage: 826b603ae9c0f88b5ac4e956801f755109fa4d5c
+  RNCCheckbox: a3ca9978cb0846b981d28da4e9914bd437403d77
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNGestureHandler: 61bfdfc05db9b79dd61f894dcd29d3dcc6db3c02
+  RNGestureHandler: 73c6f550a659dada33d43ad732df3370777f4444
   RNLocalize: d4b8af4e442d4bcca54e68fc687a2129b4d71a81
-  RNPermissions: 59c96206917535f6373e137a379cd1a0637f4147
-  RNReanimated: 3e23d4be380e295e504b7b3b3a357df60e1168a2
-  RNScreens: b582cb834dc4133307562e930e8fa914b8c04ef2
+  RNPermissions: 5b96247c15864f9d89d7f51eeb0f2b736a2b212d
+  RNReanimated: ffa9614c45d3e088b60c78dedfc176fb37002dac
+  RNScreens: 79c1020e7f52f4edde5ad96540f6e33c8b9b3b6c
   RNSVG: ba3e7232f45e34b7b47e74472386cf4e1a676d0a
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  Yoga: 2b33a7ac96c58cdaa7b810948fc6a2a76ed2d108
+  Yoga: 4f53dc50008d626fa679c7a1cb4bed898f8c0bde
 
 PODFILE CHECKSUM: ffd17f0dd827a3831104f6baaaab7e6ef3a0705e
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.14.3
